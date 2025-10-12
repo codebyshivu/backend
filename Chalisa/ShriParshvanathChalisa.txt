@@ -79,3 +79,7 @@
 
 [music link]
 https://neetstudyhub.github.io/Jinendravani/Music/Shri%20Parshwanath%20Chalisa.mp3
+
+[by- jinendravani]
+[banner]
+https://neetstudyhub.github.io/Jinendravani/Hero/Bhaktamber-hindi.jpeg
