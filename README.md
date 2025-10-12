@@ -1,2 +1,0 @@
-# Jinendravani_app
-App
