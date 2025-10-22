@@ -1,0 +1,52 @@
+name: Generate files.json
+
+on:
+  push:
+    branches:
+      - main  # or 'master', depending on your repo
+  workflow_dispatch:  # allows manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Generate files.json
+        run: |
+          import os, json
+
+          GITHUB_BASE_URL = "https://codebyshivu.github.io/backend/"
+          LOCAL_BASE_PATH = ".appdata/"
+          ROOT = "backend"
+
+          files = []
+          for root, dirs, fs in os.walk(ROOT):
+              for f in fs:
+                  if f.endswith(('.txt', '.mp3', '.json')):
+                      rel_path = os.path.relpath(os.path.join(root, f), ROOT)
+                      github_url = GITHUB_BASE_URL + rel_path.replace("\\", "/")
+                      folder = rel_path.split("/")[0].lower()
+                      local_path = f"{LOCAL_BASE_PATH}.{folder}/{f}"
+                      files.append({"url": github_url, "path": local_path})
+
+          data = {"files": files}
+          with open(os.path.join(ROOT, "files.json"), "w", encoding="utf-8") as fp:
+              json.dump(data, fp, indent=4, ensure_ascii=False)
+
+          print("✅ files.json created in backend/")
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add backend/files.json
+          git commit -m "Auto update files.json" || echo "No changes"
+          git push
