@@ -3,8 +3,8 @@ name: Generate files.json
 on:
   push:
     branches:
-      - main  # or 'master', depending on your repo
-  workflow_dispatch:  # allows manual trigger
+      - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: '3.x'
 
       - name: Generate files.json
         run: |
@@ -25,7 +25,7 @@ jobs:
 
           GITHUB_BASE_URL = "https://codebyshivu.github.io/backend/"
           LOCAL_BASE_PATH = ".appdata/"
-          ROOT = "backend"
+          ROOT = "backend"  # change to "." if files are in root
 
           files = []
           for root, dirs, fs in os.walk(ROOT):
@@ -38,6 +38,7 @@ jobs:
                       files.append({"url": github_url, "path": local_path})
 
           data = {"files": files}
+          os.makedirs(ROOT, exist_ok=True)
           with open(os.path.join(ROOT, "files.json"), "w", encoding="utf-8") as fp:
               json.dump(data, fp, indent=4, ensure_ascii=False)
 
