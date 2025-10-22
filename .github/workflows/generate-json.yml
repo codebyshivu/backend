@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # manual run option
+  workflow_dispatch:
 
 jobs:
   build:
@@ -52,8 +52,13 @@ jobs:
       # Step 4: Commit and push using PAT
       - name: Commit and push changes
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}  # make sure you create this secret
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          if [ -z "$GH_PAT" ]; then
+            echo "❌ GitHub PAT is missing! Please create secret GH_PAT in your repo."
+            exit 1
+          fi
+
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add backend/files.json
