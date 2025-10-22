@@ -28,9 +28,6 @@
         "https://codebyshivu.github.io/backend/Song/ShriAranathaChalisa.mp3",
         "https://codebyshivu.github.io/backend/Song/ShriAjitanathChalisa.mp3"
     ],
-    "backend": [
-        "https://codebyshivu.github.io/backend/backend/files.json"
-    ],
     "chalisa": [
         "https://codebyshivu.github.io/backend/chalisa/ShriChandraprabhaChalisa.txt",
         "https://codebyshivu.github.io/backend/chalisa/ShriNeminathaChalisa.txt",
