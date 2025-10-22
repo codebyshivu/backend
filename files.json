@@ -1,61 +1,208 @@
 {
-    "root": [
-        "https://codebyshivu.github.io/backend/files.json"
-    ],
-    "Song": [
-        "https://codebyshivu.github.io/backend/Song/ShriMallinathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriShantinathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriAadinathChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriVimalanathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriVasupujyaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriPushpadantahaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriMunisuvrataChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriPadmaprabhaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriAbhinandananathChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriChandraprabhaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriSuparshwanathChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriNaminathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriSumatinathChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriShitalanathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriParshvanathChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriSambhavanathChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriDharmanathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriNeminathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriMahaveerChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriShreyanasanathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriKunthunathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriAnantanathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriAranathaChalisa.mp3",
-        "https://codebyshivu.github.io/backend/Song/ShriAjitanathChalisa.mp3"
+    "song": [
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriMallinathaChalisa.mp3",
+            "path": ".appdata/.song/ShriMallinathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriShantinathaChalisa.mp3",
+            "path": ".appdata/.song/ShriShantinathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriAadinathChalisa.mp3",
+            "path": ".appdata/.song/ShriAadinathChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriVimalanathaChalisa.mp3",
+            "path": ".appdata/.song/ShriVimalanathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriVasupujyaChalisa.mp3",
+            "path": ".appdata/.song/ShriVasupujyaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriPushpadantahaChalisa.mp3",
+            "path": ".appdata/.song/ShriPushpadantahaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriMunisuvrataChalisa.mp3",
+            "path": ".appdata/.song/ShriMunisuvrataChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriPadmaprabhaChalisa.mp3",
+            "path": ".appdata/.song/ShriPadmaprabhaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriAbhinandananathChalisa.mp3",
+            "path": ".appdata/.song/ShriAbhinandananathChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriChandraprabhaChalisa.mp3",
+            "path": ".appdata/.song/ShriChandraprabhaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriSuparshwanathChalisa.mp3",
+            "path": ".appdata/.song/ShriSuparshwanathChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriNaminathaChalisa.mp3",
+            "path": ".appdata/.song/ShriNaminathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriSumatinathChalisa.mp3",
+            "path": ".appdata/.song/ShriSumatinathChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriShitalanathaChalisa.mp3",
+            "path": ".appdata/.song/ShriShitalanathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriParshvanathChalisa.mp3",
+            "path": ".appdata/.song/ShriParshvanathChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriSambhavanathChalisa.mp3",
+            "path": ".appdata/.song/ShriSambhavanathChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriDharmanathaChalisa.mp3",
+            "path": ".appdata/.song/ShriDharmanathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriNeminathaChalisa.mp3",
+            "path": ".appdata/.song/ShriNeminathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriMahaveerChalisa.mp3",
+            "path": ".appdata/.song/ShriMahaveerChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriShreyanasanathaChalisa.mp3",
+            "path": ".appdata/.song/ShriShreyanasanathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriKunthunathaChalisa.mp3",
+            "path": ".appdata/.song/ShriKunthunathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriAnantanathaChalisa.mp3",
+            "path": ".appdata/.song/ShriAnantanathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriAranathaChalisa.mp3",
+            "path": ".appdata/.song/ShriAranathaChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/ShriAjitanathChalisa.mp3",
+            "path": ".appdata/.song/ShriAjitanathChalisa.mp3"
+        }
     ],
     "chalisa": [
-        "https://codebyshivu.github.io/backend/chalisa/ShriChandraprabhaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriNeminathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriParshvanathChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriShitalanathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriDharmanathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriShreyanasanathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriSuparshwanathChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriAranathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriVasupujyaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriPadmaprabhaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriMunisuvrataChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriAnantanathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriVimalanathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriSumatinathChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriNaminathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriKunthunathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriShantinathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriAadinathChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriSambhavanathChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriAjitanathChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriMahaveerChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriMallinathaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriPushpadantahaChalisa.txt",
-        "https://codebyshivu.github.io/backend/chalisa/ShriAbhinandananathChalisa.txt"
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriChandraprabhaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriChandraprabhaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriNeminathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriNeminathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriParshvanathChalisa.txt",
+            "path": ".appdata/.chalisa/ShriParshvanathChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriShitalanathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriShitalanathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriDharmanathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriDharmanathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriShreyanasanathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriShreyanasanathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriSuparshwanathChalisa.txt",
+            "path": ".appdata/.chalisa/ShriSuparshwanathChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriAranathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriAranathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriVasupujyaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriVasupujyaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriPadmaprabhaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriPadmaprabhaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriMunisuvrataChalisa.txt",
+            "path": ".appdata/.chalisa/ShriMunisuvrataChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriAnantanathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriAnantanathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriVimalanathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriVimalanathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriSumatinathChalisa.txt",
+            "path": ".appdata/.chalisa/ShriSumatinathChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriNaminathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriNaminathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriKunthunathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriKunthunathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriShantinathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriShantinathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriAadinathChalisa.txt",
+            "path": ".appdata/.chalisa/ShriAadinathChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriSambhavanathChalisa.txt",
+            "path": ".appdata/.chalisa/ShriSambhavanathChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriAjitanathChalisa.txt",
+            "path": ".appdata/.chalisa/ShriAjitanathChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriMahaveerChalisa.txt",
+            "path": ".appdata/.chalisa/ShriMahaveerChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriMallinathaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriMallinathaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriPushpadantahaChalisa.txt",
+            "path": ".appdata/.chalisa/ShriPushpadantahaChalisa.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/chalisa/ShriAbhinandananathChalisa.txt",
+            "path": ".appdata/.chalisa/ShriAbhinandananathChalisa.txt"
+        }
     ],
-    "Aarti": [
-        "https://codebyshivu.github.io/backend/Aarti/AadinathJiAarti.txt",
-        "https://codebyshivu.github.io/backend/Aarti/Sambhavnath.txt"
+    "aarti": [
+        {
+            "url": "https://codebyshivu.github.io/backend/Aarti/AadinathJiAarti.txt",
+            "path": ".appdata/.aarti/AadinathJiAarti.txt"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Aarti/Sambhavnath.txt",
+            "path": ".appdata/.aarti/Sambhavnath.txt"
+        }
     ]
 }
