@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
+  workflow_dispatch:  # allows manual run
 
 jobs:
   build:
@@ -21,6 +21,7 @@ jobs:
 
       - name: Generate files.json
         run: |
+          python3 - <<'EOF'
           import os, json
 
           GITHUB_BASE_URL = "https://codebyshivu.github.io/backend/"
@@ -43,6 +44,7 @@ jobs:
               json.dump(data, fp, indent=4, ensure_ascii=False)
 
           print("✅ files.json created in backend/")
+          EOF
 
       - name: Commit and push changes
         run: |
