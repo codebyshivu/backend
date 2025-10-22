@@ -1,7 +1,7 @@
-name: Generate sitemap-style files.json
+name: Generate files.json with paths
 
 permissions:
-  contents: write  # allow workflow to push
+  contents: write
 
 on:
   push:
@@ -14,11 +14,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repo
+      # Step 1: Checkout repository
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # use PAT instead of default GITHUB_TOKEN
+          persist-credentials: false  # use PAT for push
 
       # Step 2: Setup Python
       - name: Set up Python
@@ -26,51 +26,58 @@ jobs:
         with:
           python-version: '3.x'
 
-      # Step 3: Generate sitemap-style JSON
-      - name: Generate sitemap files.json
+      # Step 3: Generate files.json
+      - name: Generate sitemap-style files.json
         run: |
           python3 - <<'EOF'
           import os, json
 
           GITHUB_BASE_URL = "https://codebyshivu.github.io/backend/"
-          ROOT = "."  # scan entire repo
+          LOCAL_BASE_PATH = ".appdata/"
+          ROOT = "."  # scan entire repository
 
           sitemap = {}
 
           for root_dir, dirs, files in os.walk(ROOT):
               for f in files:
-                  # Include all relevant file types
-                  if f.endswith(('.txt', '.mp3', '.json', '.md')):  # extend as needed
+                  if f.endswith(('.txt', '.mp3', '.json', '.md')):
                       rel_path = os.path.relpath(os.path.join(root_dir, f), ROOT)
-                      github_url = GITHUB_BASE_URL + rel_path.replace("\\", "/")
-                      
-                      # Use first folder as key, or "root" if in root
                       parts = rel_path.split(os.sep)
-                      folder = parts[0] if len(parts) > 1 else "root"
+
+                      # Determine folder for .appdata path
+                      folder = parts[0].lower() if len(parts) > 1 else "root"
+                      github_url = GITHUB_BASE_URL + rel_path.replace("\\", "/")
+                      local_path = os.path.join(LOCAL_BASE_PATH, f".{folder}", f).replace("\\", "/")
+
+                      # Skip files.json itself
+                      if folder == "root" and f == "files.json":
+                          continue
 
                       if folder not in sitemap:
                           sitemap[folder] = []
-                      sitemap[folder].append(github_url)
+                      sitemap[folder].append({
+                          "url": github_url,
+                          "path": local_path
+                      })
 
-          # Write JSON at repo root
           with open("files.json", "w", encoding="utf-8") as fp:
               json.dump(sitemap, fp, indent=4, ensure_ascii=False)
 
-          print(f"✅ files.json sitemap generated with {sum(len(v) for v in sitemap.values())} files")
+          print(f"✅ files.json generated with {sum(len(v) for v in sitemap.values())} files")
           EOF
 
-      # Step 4: Commit and push using PAT
+      # Step 4: Commit and push changes using PAT
       - name: Commit and push
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           if [ -z "$GH_PAT" ]; then
-            echo "❌ GitHub PAT is missing! Please create secret GH_PAT."
+            echo "❌ GitHub PAT is missing!"
             exit 1
           fi
 
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add files.json
-          git commit -m "Auto update sitemap-style files.json" || echo "No changes"
+          git commit -m "Auto update files.json" || echo "No changes"
           git push https://$GH_PAT@github.com/${{ github.repository }} HEAD:main
