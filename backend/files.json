@@ -1,3 +1,8 @@
 {
-    "files": []
+    "files": [
+        {
+            "url": "https://codebyshivu.github.io/backend/files.json",
+            "path": ".appdata/.files.json/files.json"
+        }
+    ]
 }
