@@ -1,4 +1,10 @@
 {
+    "bhajan": [
+        {
+            "url": "https://codebyshivu.github.io/backend/Bhajan/AayaAayaAayaTereDarbarMe.txt",
+            "path": ".appdata/.bhajan/AayaAayaAayaTereDarbarMe.txt"
+        }
+    ],
     "chalisa": [
         {
             "url": "https://codebyshivu.github.io/backend/chalisa/ShriChandraprabhaChalisa.txt",
