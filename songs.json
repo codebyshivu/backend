@@ -95,6 +95,10 @@
         {
             "url": "https://codebyshivu.github.io/backend/Song/ShriAjitanathChalisa.mp3",
             "path": ".appdata/.song/ShriAjitanathChalisa.mp3"
+        },
+        {
+            "url": "https://codebyshivu.github.io/backend/Song/Details/ShriMahaveerChalisa.txt",
+            "path": ".appdata/.song/ShriMahaveerChalisa.txt"
         }
     ]
 }
