@@ -39,7 +39,13 @@ jobs:
           files_sitemap = {}
           songs_sitemap = {}
 
+          IGNORE_FOLDERS = {"song/banner", "song/details"}  # folders to skip for files.json
+
           for root_dir, dirs, files in os.walk(ROOT):
+              normalized_root = os.path.relpath(root_dir, ROOT).replace("\\", "/").lower()
+              if normalized_root in IGNORE_FOLDERS:
+                  continue
+
               for f in files:
                   if f.endswith(('.txt', '.mp3', '.json', '.md')):
                       rel_path = os.path.relpath(os.path.join(root_dir, f), ROOT)
@@ -53,13 +59,20 @@ jobs:
                       if folder == "root" and f in ("files.json", "songs.json"):
                           continue
 
-                      # Save Song folder files separately
-                      if folder == "song":
+                      # Handle Song folder separately
+                      if folder == "song" and normalized_root == "song":
                           if folder not in songs_sitemap:
                               songs_sitemap[folder] = []
+
+                          filename_no_ext = os.path.splitext(f)[0]
+                          banner_url = f"{GITHUB_BASE_URL}Song/Banner/{filename_no_ext}.jpg"
+                          details_url = f"{GITHUB_BASE_URL}Song/Details/{filename_no_ext}.txt"
+
                           songs_sitemap[folder].append({
                               "url": github_url,
-                              "path": local_path
+                              "path": local_path,
+                              "banner": banner_url,
+                              "details": details_url
                           })
                       else:
                           if folder not in files_sitemap:
@@ -69,7 +82,7 @@ jobs:
                               "path": local_path
                           })
 
-          # Write both JSONs
+          # Write JSON files
           with open("files.json", "w", encoding="utf-8") as fp:
               json.dump(files_sitemap, fp, indent=4, ensure_ascii=False)
 
