@@ -12,20 +12,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository
-      - name: Checkout repo
+      # 1️⃣ Checkout the repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 2️⃣ Generate song.json
+      # 2️⃣ Generate song.json from /Song/chalisa/
       - name: Generate song list
         run: |
           echo "[" > song.json
           first=true
           found=false
-          
-          # Loop through all .mp3 files in /Song/chalisa/
+
           for file in Song/chalisa/*.mp3; do
             if [ -f "$file" ]; then
               found=true
@@ -42,7 +41,7 @@ jobs:
               echo "  {\"name\": \"$clean_name\", \"url\": \"$url\"}" >> song.json
             fi
           done
-          
+
           echo "]" >> song.json
 
           # If no mp3 files found
@@ -50,12 +49,13 @@ jobs:
             echo "[]" > song.json
           fi
 
+          # Optional: preview in logs
           cat song.json
 
-      # 3️⃣ Commit & push to gh-pages
+      # 3️⃣ Commit & push to gh-pages using Classic PAT
       - name: Commit and push song.json
         env:
-          TOKEN: ${{ secrets.GH_PAT2 }}
+          TOKEN: ${{ secrets.GH_PAT }}
         run: |
           if [ -z "$TOKEN" ]; then
             echo "❌ ERROR: Secret 'GH_PAT' is missing!"
@@ -65,9 +65,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Create gh-pages branch if it doesn't exist
+          # Switch to gh-pages branch (create if missing)
           git fetch origin gh-pages || git checkout -b gh-pages
-
           git checkout gh-pages
 
           git add song.json
