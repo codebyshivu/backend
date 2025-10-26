@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo
-      - name: Checkout repository
+      # 1️⃣ Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -45,14 +45,14 @@ jobs:
           
           echo "]" >> song.json
 
-          # Empty folder fallback
+          # If no mp3 files found
           if [ "$found" = false ]; then
             echo "[]" > song.json
           fi
 
           cat song.json
 
-      # 3️⃣ Commit & Push using GH_PAT
+      # 3️⃣ Commit & push to gh-pages
       - name: Commit and push song.json
         env:
           TOKEN: ${{ secrets.GH_PAT }}
@@ -65,9 +65,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          # Create gh-pages branch if it doesn't exist
+          git fetch origin gh-pages || git checkout -b gh-pages
+
+          git checkout gh-pages
+
           git add song.json
           git diff --cached --quiet && echo "✅ No changes to commit" && exit 0
           git commit -m "Auto-generate song.json"
 
-          # ✅ Push using PAT with proper URL
-          git push "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
+          git push "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
