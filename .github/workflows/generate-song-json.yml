@@ -12,25 +12,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout full repo history
+      # 1️⃣ Checkout full repo
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 2️⃣ Generate song.json even if empty
+      # 2️⃣ Generate song.json
       - name: Generate song list
         run: |
           echo "[" > song.json
           first=true
           found=false
+          
+          # 🔍 Loop through all .mp3 files inside Song/
           for file in Song/**/*.mp3; do
             if [ -f "$file" ]; then
               found=true
               base=$(basename "$file" .mp3)
               clean_name=$(echo "$base" | sed 's/_/ /g')
               url="https://codebyshivu.github.io/backend/$file"
-              
+
               if [ "$first" = true ]; then
                 first=false
               else
@@ -40,27 +42,30 @@ jobs:
               echo "  {\"name\": \"$clean_name\", \"url\": \"$url\"}" >> song.json
             fi
           done
+          
           echo "]" >> song.json
 
-          # If no mp3 found, write empty JSON array
+          # If no files found
           if [ "$found" = false ]; then
             echo "[]" > song.json
           fi
 
           cat song.json
 
-      # 3️⃣ Commit and push using PAT
+      # 3️⃣ Commit and push song.json
       - name: Commit and push song.json
         env:
-          TOKEN: ${{ secrets.PAT }}
+          TOKEN: ${{ secrets.GH_PAT }}
         run: |
+          if [ -z "$TOKEN" ]; then
+            echo "❌ ERROR: Secret 'GH_PAT' is missing!"
+            exit 1
+          fi
+          
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Move file to repo root to ensure GitHub Pages can find it
-          mv song.json ./song.json
-
           git add song.json
-          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git diff --cached --quiet && echo "✅ No changes to commit" && exit 0
           git commit -m "Auto-generate song.json"
           git push https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git HEAD:main
