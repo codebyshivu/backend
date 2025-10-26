@@ -1,59 +1,29 @@
-name: Create song.json
+name: Update song.json using PAT
 
 on:
-  workflow_dispatch: # Run manually
+  workflow_dispatch:  # Run manually
   schedule:
-    - cron: '0 0 * * *' # Daily at midnight UTC
+    - cron: '0 0 * * *'  # Daily at midnight UTC
 
 jobs:
-  generate_sitemap:
+  update-json:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # 2️⃣ Setup Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      # 3️⃣ Install dependencies
-      - name: Install dependencies
-        run: npm install axios cheerio fs
-
-      # 4️⃣ Generate song.json
-      - name: Generate song.json
+      # Create or update song.json directly
+      - name: Write song.json
         run: |
-          node -e "
-          const axios = require('axios');
-          const cheerio = require('cheerio');
-          const fs = require('fs');
-          const url = 'https://codebyshivu.github.io/backend/Song/chalisa/';
-          (async () => {
-            try {
-              const { data } = await axios.get(url);
-              const $ = cheerio.load(data);
-              const links = [];
-              $('a').each((i, el) => {
-                const href = $(el).attr('href');
-                if (href && href.endsWith('.mp3')) links.push(url + href);
-              });
-              fs.writeFileSync('song.json', JSON.stringify(links, null, 2), 'utf-8');
-              console.log('song.json created!');
-            } catch (e) { console.error(e); }
-          })();
-          "
+          echo '["https://codebyshivu.github.io/backend/Song/chalisa/song1.mp3","https://codebyshivu.github.io/backend/Song/chalisa/song2.mp3"]' > song.json
 
-      # 5️⃣ Commit and push song.json using PAT
-      - name: Commit & push song.json
+      - name: Commit & push using PAT
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --local user.name "GitHub PAT Bot"
           git config --local user.email "actions@github.com"
           git add song.json
-          git commit -m "Update song.json [skip ci]" || echo "No changes"
+          git commit -m "Update song.json [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:$GH_PAT@github.com/${{ github.repository }} HEAD:main
