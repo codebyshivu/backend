@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "Song/**"
+      - "Song/chalisa/**"
   workflow_dispatch:
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout full repo
+      # 1️⃣ Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -25,8 +25,8 @@ jobs:
           first=true
           found=false
           
-          # 🔍 Loop through all .mp3 files inside Song/
-          for file in Song/**/*.mp3; do
+          # Loop through all .mp3 files in /Song/chalisa/
+          for file in Song/chalisa/*.mp3; do
             if [ -f "$file" ]; then
               found=true
               base=$(basename "$file" .mp3)
@@ -45,14 +45,14 @@ jobs:
           
           echo "]" >> song.json
 
-          # If no files found
+          # Empty folder fallback
           if [ "$found" = false ]; then
             echo "[]" > song.json
           fi
 
           cat song.json
 
-      # 3️⃣ Commit and push song.json
+      # 3️⃣ Commit & Push using GH_PAT
       - name: Commit and push song.json
         env:
           TOKEN: ${{ secrets.GH_PAT }}
@@ -61,11 +61,13 @@ jobs:
             echo "❌ ERROR: Secret 'GH_PAT' is missing!"
             exit 1
           fi
-          
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add song.json
           git diff --cached --quiet && echo "✅ No changes to commit" && exit 0
           git commit -m "Auto-generate song.json"
-          git push https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+
+          # ✅ Push using PAT with proper URL
+          git push "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
