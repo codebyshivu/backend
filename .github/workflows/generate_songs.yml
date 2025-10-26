@@ -1,9 +1,9 @@
 name: Generate songs.json
 
 on:
-  workflow_dispatch: # Can run manually
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
+    - cron: '0 0 * * *' # daily at midnight UTC
 
 jobs:
   build:
@@ -24,10 +24,12 @@ jobs:
       - name: Generate songs.json
         run: node scripts/generate_songs.js
 
-      - name: Commit and push songs.json
+      - name: Commit and push songs.json using PAT
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub PAT Bot"
+          git config --local user.email "actions@github.com"
           git add songs.json
           git commit -m "Update songs.json [skip ci]" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:$GH_PAT@github.com/${{ github.repository }} HEAD:main
