@@ -1,5 +1,11 @@
-Welcome Update | A warm welcome to our new update! Enjoy faster performance and smoother experience.
-New Chalisa Added | Shri Aadinath Chalisa has been added to the app. Tap to view the full text.
-Maintenance Info | Our servers will be under maintenance tonight from 12 AM to 2 AM.
-Bug Fixes | Minor bug fixes and performance improvements have been made.
-Special Event | Participate in Diwali Bhakti Event and earn special rewards!
+🎉 New Update Released!
+App v2.1 is now live — faster & smoother performance.
+https://github.com/codebyshivu/backend/releases/latest
+
+📰 Blog Added
+We added a new blog section in the app.
+https://codebyshivu.github.io/blog
+
+⚡ Maintenance Notice
+Server maintenance scheduled tonight at 11:30 PM.
+https://github.com/codebyshivu/status
