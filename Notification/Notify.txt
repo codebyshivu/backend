@@ -1,0 +1,4 @@
+✨ New Update Available!
+5 minutes ago
+A new version of JinendraVani is live with better performance and bug fixes. Tap to open update page.
+https://github.com/codebyshivu/backend/releases/latest
