@@ -1,3 +1,3 @@
-Update v2.0 Released|New version adds faster loading speed!
-Server Maintenance|Our servers will be upgraded tonight.
-New Feature|Push notifications now supported!
+🎉 New Update Released!|App v2.1 is now live — faster & smoother performance.|https://github.com/codebyshivu/backend/releases/latest
+Maintenance Notice|Server update tonight for better stability.|https://github.com/codebyshivu/backend
+Welcome Users|New dark mode now available in settings.|https://github.com/codebyshivu/backend
