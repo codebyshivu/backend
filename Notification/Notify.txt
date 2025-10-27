@@ -1,13 +1,5 @@
-✨ New Chalisa Added!
-Shri Parshvanath Chalisa is now available in the Chalisa section.
-https://github.com/codebyshivu/backend/releases/latest
-
-🙏 App Update Released
-A new version 1.2 of your app is live — faster, smoother, and better UI!
-https://github.com/codebyshivu/backend/releases/latest
-
-🕉️ Meditation Reminder
-Spend 5 minutes today in peaceful meditation and reflection.
-
-📖 Daily Quote
-"Peace begins when expectation ends." — Acharya Mahapragya
+Welcome Update | A warm welcome to our new update! Enjoy faster performance and smoother experience.
+New Chalisa Added | Shri Aadinath Chalisa has been added to the app. Tap to view the full text.
+Maintenance Info | Our servers will be under maintenance tonight from 12 AM to 2 AM.
+Bug Fixes | Minor bug fixes and performance improvements have been made.
+Special Event | Participate in Diwali Bhakti Event and earn special rewards!
