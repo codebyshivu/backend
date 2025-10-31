@@ -1,0 +1,46 @@
+{
+  "songs": [
+    {
+      "title": "Shri Aadinath Chalisa",
+      "subtitle": "By - Jinendravani",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriAadinathChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/banner/chalisa_banner_1.jpg",
+      "category": "chalisa"
+    },
+    {
+      "title": "Shri Shantinath Chalisa",
+      "subtitle": "By - Jinendravani",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShantinathChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/banner/chalisa_banner_2.jpg",
+      "category": "chalisa"
+    },
+    {
+      "title": "Bhaktamar Stotra (Hindi)",
+      "subtitle": "By - Jinendravani",
+      "url": "https://codebyshivu.github.io/backend/Song/bhaktamar/Bhaktamar_Stotra_Hindi.m4a",
+      "banner": "https://codebyshivu.github.io/backend/banner/bhaktamar_banner.jpg",
+      "category": "bhaktamar"
+    },
+    {
+      "title": "Mere Tirthankar Jinendra",
+      "subtitle": "By - Jinendravani",
+      "url": "https://codebyshivu.github.io/backend/Song/bhajan/MereTirthankarJinendra.mp3",
+      "banner": "https://codebyshivu.github.io/backend/banner/bhajan_banner_1.jpg",
+      "category": "bhajan"
+    },
+    {
+      "title": "Jai Jinendra Aarti",
+      "subtitle": "By - Jinendravani",
+      "url": "https://codebyshivu.github.io/backend/Song/aarti/JaiJinendraAarti.mp3",
+      "banner": "https://codebyshivu.github.io/backend/banner/aarti_banner_1.jpg",
+      "category": "aarti"
+    },
+    {
+      "title": "Namokar Mantra Dhyan",
+      "subtitle": "By - Jinendravani",
+      "url": "https://codebyshivu.github.io/backend/Song/all/NamokarMantraDhyan.mp3",
+      "banner": "https://codebyshivu.github.io/backend/banner/all_banner_1.jpg",
+      "category": "all"
+    }
+  ]
+}
