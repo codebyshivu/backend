@@ -1,7 +1,7 @@
 [App Update Avilable - Yes]
 [ Click on Update Button To Update App ]
 [ Update Link - https://github.com/codebyshivu/backend/releases/download/v1.0/Jinendravani.apk ]
-[App version - 1.0]
+[App version - 1.4]
 
 [logs]
 • fixed something 
