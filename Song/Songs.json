@@ -1,45 +1,199 @@
 {
   "songs": [
     {
-      "title": "Shri Aadinath Chalisa",
-      "subtitle": "By - Jinendravani",
+      "title": "श्री आदिनाथ चालीसा",
+      "subtitle": "Shri Aadinath Chalisa",
       "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriAadinathChalisa.mp3",
-      "banner": "https://codebyshivu.github.io/backend/Hero/Banner/Ajitnath-hero.jpeg",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Aadinathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री अजितनाथ चालीसा",
+      "subtitle": "Shri Ajitanath Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriAjitanathChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Ajitanathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री अभिनंदननाथ चालीसा",
+      "subtitle": "Shri Abhinandananath Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriAbhinandananathChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Abhinandanchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री सुमतिनाथ चालीसा",
+      "subtitle": "Shri Sumatinath Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriSumatinathChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Sumatichalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री पद्मप्रभु चालीसा",
+      "subtitle": "Shri Padmaprabha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriPadmaprabhaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Padmaprabhuchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री सुपार्श्वनाथ चालीसा",
+      "subtitle": "Shri Suparshwanath Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriSuparshwanathChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Suparshwanathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री चन्द्रप्रभु चालीसा",
+      "subtitle": "Shri Chandraprabha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriChandraprabhaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Chandraprabhuchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री कुन्थुनाथ चालीसा",
+      "subtitle": "Shri Kunthunatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriKunthunathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Kunthunathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री अरनाथ चालीसा",
+      "subtitle": "Shri Aranatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriAranathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Aranathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री मल्लिनाथ चालीसा",
+      "subtitle": "Shri Mallinatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriMallinathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Mallinathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री मुनिसुव्रत चालीसा",
+      "subtitle": "Shri Munisuvrata Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriMunisuvrataChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Munisuvratchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री नामिनाथ चालीसा",
+      "subtitle": "Shri Naminatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriNaminathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Naminathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री नेमिनाथ चालीसा",
+      "subtitle": "Shri Neminatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriNeminathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Neminathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री श्रेयान्सनाथ चालीसा",
+      "subtitle": "Shri Shreyanasanatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriShreyanasanathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Shreyanaschalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री शीतलनाथ चालीसा",
+      "subtitle": "Shri Shitalanatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriShitalanathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Shitalnathchalisa.jpeg",
       "category": "chalisa"
     },
     {
       "title": "श्री शांतिनाथ चालीसा",
-      "subtitle": "Shri Shantinath Chalisa",
-      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriAjitanathChalisa.mp3",
-      "banner": "https://codebyshivu.github.io/backend/Hero/Banner/Ajitnath-hero.jpeg",
+      "subtitle": "Shri Shantinatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriShantinathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Shantinathchalisa.jpeg",
       "category": "chalisa"
     },
     {
-      "title": "Bhaktamar Stotra (Hindi)",
-      "subtitle": "By - Jinendravani",
-      "url": "https://codebyshivu.github.io/backend/Song/bhaktamar/Bhaktamar_Stotra_Hindi.m4a",
-      "banner": "https://codebyshivu.github.io/backend/Hero/Banner/Ajitnath-hero.jpeg",
+      "title": "श्री धर्मनाथ चालीसा",
+      "subtitle": "Shri Dharmanatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriDharmanathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Dharmanathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री वासुपूज्य चालीसा",
+      "subtitle": "Shri Vasupujya Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriVasupujyaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Vasupujyachalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री विमलनाथ चालीसा",
+      "subtitle": "Shri Vimalanatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriVimalanathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Vimalnathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री अनंतनाथ चालीसा",
+      "subtitle": "Shri Anantanatha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriAnantanathaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Anantnathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री पार्श्वनाथ चालीसा",
+      "subtitle": "Shri Parshvanath Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriParshvanathChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Parshvanathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री महावीर चालीसा",
+      "subtitle": "Shri Mahaveer Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriMahaveerChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Mahaveerchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री पुष्पदंत चालीसा",
+      "subtitle": "Shri Pushpadantaha Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriPushpadantahaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Pushpadantchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "श्री सम्भवनाथ चालीसा",
+      "subtitle": "Shri Sambhavanath Chalisa",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriSambhavanathChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Sambhavanathchalisa.jpeg",
+      "category": "chalisa"
+    },
+    {
+      "title": "भक्तामर स्तोत्र (हिन्दी)",
+      "subtitle": "Bhaktamar Stotra (Hindi)",
+      "url": "https://codebyshivu.github.io/backend/Song/bhaktamar/Bhaktamber-Stotra-Hindi.m4a",
+      "banner": "",
       "category": "bhaktamar"
     },
     {
-      "title": "Mere Tirthankar Jinendra",
-      "subtitle": "By - Jinendravani",
-      "url": "https://codebyshivu.github.io/backend/Song/bhajan/MereTirthankarJinendra.mp3",
-      "banner": "https://codebyshivu.github.io/backend/banner/bhajan_banner_1.jpg",
-      "category": "bhajan"
-    },
-    {
-      "title": "Jai Jinendra Aarti",
-      "subtitle": "By - Jinendravani",
+      "title": "जय जिनेन्द्र आरती",
+      "subtitle": "Jai Jinendra Aarti",
       "url": "https://codebyshivu.github.io/backend/Song/aarti/JaiJinendraAarti.mp3",
-      "banner": "https://codebyshivu.github.io/backend/banner/aarti_banner_1.jpg",
+      "banner": "",
       "category": "aarti"
     },
     {
-      "title": "Namokar Mantra Dhyan",
-      "subtitle": "By - Jinendravani",
+      "title": "मेरे तीर्थंकर जिनेन्द्र",
+      "subtitle": "Mere Tirthankar Jinendra",
+      "url": "https://codebyshivu.github.io/backend/Song/bhajan/MereTirthankarJinendra.mp3",
+      "banner": "",
+      "category": "bhajan"
+    },
+    {
+      "title": "णमोकार मंत्र ध्यान",
+      "subtitle": "Namokar Mantra Dhyan",
       "url": "https://codebyshivu.github.io/backend/Song/all/NamokarMantraDhyan.mp3",
-      "banner": "https://codebyshivu.github.io/backend/banner/all_banner_1.jpg",
+      "banner": "",
       "category": "all"
     }
   ]
