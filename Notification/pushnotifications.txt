@@ -5,10 +5,10 @@ Hey new update available!
 A new version of the app has been published. Tap to check details.
 
 [Image]
-https://your-image-link-here.com/image.jpg
+
 
 [Link]
-https://your-website-here.com
+
 
 [Activity]
 MusicplaylistActivity
