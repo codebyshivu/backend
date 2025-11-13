@@ -1,3 +1,5 @@
-🎉 New Update Released!|App v2.1 is now live — faster & smoother performance.|https://github.com/codebyshivu/backend/releases/lates
-Maintenance Notice|Server update tonight for better stability.|https://github.com/codebyshivu/backen
-Welcome Users|New dark mode now available in settings.|https://github.com/codebyshivu/backen
+[tittle]
+New Song list avilable 😍💪
+
+[subtitle]
+Click here to see what changes happened in song list now
