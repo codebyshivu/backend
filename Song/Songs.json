@@ -1,11 +1,11 @@
 {
   "songs": [
     {
-      "title": "श्री पुष्पदंत चालीसा",
-      "subtitle": "Shri Pushpadantaha Chalisa | Jinendravani",
-      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriPushpadantahaChalisa.mp3",
-      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Pushpadantchalisa.jpeg",
-      "category": "chalisa"
+      "title": "भक्तामर स्तोत्र (हिन्दी)",
+      "subtitle": "Bhaktamar Stotra (Hindi) | Jinendravani",
+      "url": "https://codebyshivu.github.io/backend/Song/bhaktamar/Bhaktamber-Stotra-Hindi.m4a",
+      "banner": "https://codebyshivu.github.io/backend/Song/bhaktamar/Banner/Bhaktamar.jpeg",
+      "category": "bhaktamar"
     },
     {
       "title": "श्री आदिनाथ चालीसा",
@@ -170,11 +170,11 @@
       "category": "chalisa"
     },
     {
-      "title": "भक्तामर स्तोत्र (हिन्दी)",
-      "subtitle": "Bhaktamar Stotra (Hindi) | Jinendravani",
-      "url": "https://codebyshivu.github.io/backend/Song/bhaktamar/Bhaktamber-Stotra-Hindi.m4a",
-      "banner": "https://codebyshivu.github.io/backend/Song/bhaktamar/Banner/Bhaktamar.jpeg",
-      "category": "bhaktamar"
+      "title": "श्री पुष्पदंत चालीसा",
+      "subtitle": "Shri Pushpadantaha Chalisa | Jinendravani",
+      "url": "https://codebyshivu.github.io/backend/Song/chalisa/ShriPushpadantahaChalisa.mp3",
+      "banner": "https://codebyshivu.github.io/backend/Song/chalisa/Banner/Pushpadantchalisa.jpeg",
+      "category": "chalisa"
     },
     {
       "title": "णमोकार मंत्र ध्यान",
