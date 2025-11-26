@@ -1,0 +1,61 @@
+{
+  "update_version": "1.0.1",
+  "released": "2025-02-01",
+  "changes": [
+    "Synced all TXT and JSON files",
+    "Ensured latest backend content",
+    "Silent encrypted background update"
+  ],
+  "files": [
+
+    /* ===== CHALISA ===== */
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriAadinathChalisa.txt", "save_as": "ShriAadinathChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriAjitanathChalisa.txt", "save_as": "ShriAjitanathChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriSambhavanathChalisa.txt", "save_as": "ShriSambhavanathChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriAbhinandananathChalisa.txt", "save_as": "ShriAbhinandananathChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriSumatinathChalisa.txt", "save_as": "ShriSumatinathChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriPadmaprabhaChalisa.txt", "save_as": "ShriPadmaprabhaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriSuparshwanathChalisa.txt", "save_as": "ShriSuparshwanathChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriChandraprabhaChalisa.txt", "save_as": "ShriChandraprabhaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriPushpadantahaChalisa.txt", "save_as": "ShriPushpadantahaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriShitalanathaChalisa.txt", "save_as": "ShriShitalanathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriShreyanasanathaChalisa.txt", "save_as": "ShriShreyanasanathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriVasupujyaChalisa.txt", "save_as": "ShriVasupujyaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriVimalanathaChalisa.txt", "save_as": "ShriVimalanathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriAnantanathaChalisa.txt", "save_as": "ShriAnantanathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriDharmanathaChalisa.txt", "save_as": "ShriDharmanathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriShantinathaChalisa.txt", "save_as": "ShriShantinathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriKunthunathaChalisa.txt", "save_as": "ShriKunthunathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriAranathaChalisa.txt", "save_as": "ShriAranathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriMallinathaChalisa.txt", "save_as": "ShriMallinathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriMunisuvrataChalisa.txt", "save_as": "ShriMunisuvrataChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriNaminathaChalisa.txt", "save_as": "ShriNaminathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriNeminathaChalisa.txt", "save_as": "ShriNeminathaChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriParshvanathChalisa.txt", "save_as": "ShriParshvanathChalisa.txt" },
+    { "url": "https://codebyshivu.github.io/backend/chalisa/ShriMahaveerChalisa.txt", "save_as": "ShriMahaveerChalisa.txt" },
+
+    /* ===== BHAJAN ===== */
+    { "url": "https://codebyshivu.github.io/backend/Bhajan/AayaAayaAayaTereDarbarMe.txt", "save_as": "AayaAayaAayaTereDarbarMe.txt" },
+
+    /* ===== AARTI ===== */
+    { "url": "https://codebyshivu.github.io/backend/Aarti/AadinathJiAarti.txt", "save_as": "AadinathJiAarti.txt" },
+
+    /* ===== BHAKTAMAR ===== */
+    { "url": "https://codebyshivu.github.io/backend/Bhaktamar/Hindi.txt", "save_as": "Hindi.txt" },
+    { "url": "https://codebyshivu.github.io/backend/Bhaktamar/Sanskrit.txt", "save_as": "Sanskrit.txt" },
+
+    /* ===== STUTI ===== */
+    { "url": "https://codebyshivu.github.io/backend/Stuti/Stuti.txt", "save_as": "Stuti.txt" },
+
+    /* ===== JSON DATA ===== */
+    { "url": "https://codebyshivu.github.io/backend/Appdata/Internet/Chalisa.json", "save_as": "chalisa.json" },
+    { "url": "https://codebyshivu.github.io/backend/Appdata/Internet/Bhajan.json", "save_as": "bhajan.json" },
+    { "url": "https://codebyshivu.github.io/backend/Appdata/Internet/Aarti.json", "save_as": "aarti.json" },
+    { "url": "https://codebyshivu.github.io/backend/Appdata/Internet/Pooja.json", "save_as": "pooja.json" },
+    { "url": "https://codebyshivu.github.io/backend/Appdata/Internet/Argh.json", "save_as": "argh.json" },
+    { "url": "https://codebyshivu.github.io/backend/Appdata/Internet/Stuti.json", "save_as": "stuti.json" },
+
+    /* ===== MUSIC ===== */
+    { "url": "https://codebyshivu.github.io/backend/Song/Songs.json", "save_as": "music.json" }
+  ]
+}
