@@ -1,0 +1,94 @@
+{
+  "mandir": [
+    {
+      "title": "Shri Digambar Jain Lal Mandir",
+      "location": "Chandni Chowk, Opposite Red Fort, New Delhi",
+      "tag": "Digambar",
+      "image": "lal_mandir"
+    },
+    {
+      "title": "Shri Atma Vallabh Jain Smarak Temple",
+      "location": "Civil Lines, New Delhi",
+      "tag": "Shwetambar",
+      "image": "atma_vallabh"
+    },
+    {
+      "title": "Shri Mahavira Swami Jain Mandir",
+      "location": "Gandhi Nagar, East Delhi",
+      "tag": "Shwetambar",
+      "image": "mahavir_gandhi_nagar"
+    },
+    {
+      "title": "Shri Bharatvarshiya Digambar Jain Mahasabha Mandir",
+      "location": "Daryaganj, New Delhi",
+      "tag": "Digambar",
+      "image": "daryaganj_mandir"
+    },
+    {
+      "title": "Shri Naya Mandir Jain Temple",
+      "location": "Kinari Bazaar, Chandni Chowk, New Delhi",
+      "tag": "Shwetambar",
+      "image": "naya_mandir"
+    },
+    {
+      "title": "Shri Padmavati Mata Jain Mandir",
+      "location": "Rohini Sector 3, New Delhi",
+      "tag": "Digambar",
+      "image": "padmavati_rohini"
+    },
+    {
+      "title": "Shri Jain Sabha Mandir",
+      "location": "Lajpat Nagar IV, New Delhi",
+      "tag": "Shwetambar",
+      "image": "lajpat_nagar_jain"
+    },
+    {
+      "title": "Shri Digambar Jain Mandir",
+      "location": "Paschim Vihar, New Delhi",
+      "tag": "Digambar",
+      "image": "paschim_vihar_jain"
+    },
+    {
+      "title": "Shri Adinath Digambar Jain Temple",
+      "location": "Pitampura, New Delhi",
+      "tag": "Digambar",
+      "image": "adinath_pitampura"
+    },
+    {
+      "title": "Shri Swetambar Jain Temple",
+      "location": "Greater Kailash-II, New Delhi",
+      "tag": "Shwetambar",
+      "image": "gk2_jain"
+    },
+    {
+      "title": "Shri 1008 Parshvanath Digambar Jain Mandir",
+      "location": "Rohini Sector 9, New Delhi",
+      "tag": "Digambar",
+      "image": "parshvanath_rohini"
+    },
+    {
+      "title": "Shri Mahavir Digambar Jain Mandir",
+      "location": "Karol Bagh, New Delhi",
+      "tag": "Digambar",
+      "image": "mahavir_karol_bagh"
+    },
+    {
+      "title": "Shri Shantinath Jain Mandir",
+      "location": "Punjabi Bagh, New Delhi",
+      "tag": "Shwetambar",
+      "image": "shantinath_punjabi_bagh"
+    },
+    {
+      "title": "Shri Vardhman Jain Temple",
+      "location": "Mayur Vihar Phase-1, New Delhi",
+      "tag": "Shwetambar",
+      "image": "vardhman_mayur_vihar"
+    },
+    {
+      "title": "Shri Chintamani Parshvanath Jain Mandir",
+      "location": "Sadar Bazar, New Delhi",
+      "tag": "Shwetambar",
+      "image": "chintamani_sadar"
+    }
+  ]
+}
