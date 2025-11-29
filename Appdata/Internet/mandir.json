@@ -1,94 +1,105 @@
 {
   "mandir": [
-    {
-      "title": "Shri Digambar Jain Lal Mandir",
-      "location": "Chandni Chowk, Opposite Red Fort, New Delhi",
-      "tag": "Digambar",
-      "image": "lal_mandir"
-    },
-    {
-      "title": "Shri Atma Vallabh Jain Smarak Temple",
-      "location": "Civil Lines, New Delhi",
-      "tag": "Shwetambar",
-      "image": "atma_vallabh"
-    },
-    {
-      "title": "Shri Mahavira Swami Jain Mandir",
-      "location": "Gandhi Nagar, East Delhi",
-      "tag": "Shwetambar",
-      "image": "mahavir_gandhi_nagar"
-    },
-    {
-      "title": "Shri Bharatvarshiya Digambar Jain Mahasabha Mandir",
-      "location": "Daryaganj, New Delhi",
-      "tag": "Digambar",
-      "image": "daryaganj_mandir"
-    },
-    {
-      "title": "Shri Naya Mandir Jain Temple",
-      "location": "Kinari Bazaar, Chandni Chowk, New Delhi",
-      "tag": "Shwetambar",
-      "image": "naya_mandir"
-    },
-    {
-      "title": "Shri Padmavati Mata Jain Mandir",
-      "location": "Rohini Sector 3, New Delhi",
-      "tag": "Digambar",
-      "image": "padmavati_rohini"
-    },
-    {
-      "title": "Shri Jain Sabha Mandir",
-      "location": "Lajpat Nagar IV, New Delhi",
-      "tag": "Shwetambar",
-      "image": "lajpat_nagar_jain"
-    },
-    {
-      "title": "Shri Digambar Jain Mandir",
-      "location": "Paschim Vihar, New Delhi",
-      "tag": "Digambar",
-      "image": "paschim_vihar_jain"
-    },
-    {
-      "title": "Shri Adinath Digambar Jain Temple",
-      "location": "Pitampura, New Delhi",
-      "tag": "Digambar",
-      "image": "adinath_pitampura"
-    },
-    {
-      "title": "Shri Swetambar Jain Temple",
-      "location": "Greater Kailash-II, New Delhi",
-      "tag": "Shwetambar",
-      "image": "gk2_jain"
-    },
-    {
-      "title": "Shri 1008 Parshvanath Digambar Jain Mandir",
-      "location": "Rohini Sector 9, New Delhi",
-      "tag": "Digambar",
-      "image": "parshvanath_rohini"
-    },
-    {
-      "title": "Shri Mahavir Digambar Jain Mandir",
-      "location": "Karol Bagh, New Delhi",
-      "tag": "Digambar",
-      "image": "mahavir_karol_bagh"
-    },
-    {
-      "title": "Shri Shantinath Jain Mandir",
-      "location": "Punjabi Bagh, New Delhi",
-      "tag": "Shwetambar",
-      "image": "shantinath_punjabi_bagh"
-    },
-    {
-      "title": "Shri Vardhman Jain Temple",
-      "location": "Mayur Vihar Phase-1, New Delhi",
-      "tag": "Shwetambar",
-      "image": "vardhman_mayur_vihar"
-    },
-    {
-      "title": "Shri Chintamani Parshvanath Jain Mandir",
-      "location": "Sadar Bazar, New Delhi",
-      "tag": "Shwetambar",
-      "image": "chintamani_sadar"
-    }
+    { "title": "Shri Digambar Jain Atishay Kshetra Kundalpur", "location": "Kundalpur, Near Bade Baba Complex, Damoh", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Bade Baba Jain Mandir", "location": "Kundalpur, Opposite Samavasaran Mandir, Damoh", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Lal Jain Mandir (Sagar)", "location": "Sagar, Near Municipal Ground, Napier Town", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Parshvanath Jain Mandir (Sonagir)", "location": "Sonagir, Sonagir Hill Complex, Near Sonagir Tirthroad, Datia", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Neminath Jain Mandir (Jabalpur)", "location": "Jabalpur, Napier Town Area, Near Madan Mahal Fort", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Shantinath Jain Mandir (Indore)", "location": "Indore, Rajwada Road, Near Cloth Market (Rajwada)", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Mahavir Swetambar Mandir (Indore)", "location": "Indore, Near Rajmohalla, Close to Rajwada Palace", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Mahavir Jain Mandir (Ujjain)", "location": "Ujjain, Near Mahakal Temple Complex, Kaliadeh Palace Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jageshwar Jain Mandir", "location": "Narsinghgarh, Near Bus Stand, Main Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Parshvanath Mandir (Rewa)", "location": "Rewa, Opposite Circuit House, Near Rani Tal", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Digambar Bada Mandir (Tikamgarh)", "location": "Tikamgarh, Near Lalpul, Main Bazaar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Dadabadi Jain Mandir (Chhatarpur)", "location": "Chhatarpur, Near Chhatarpur Fort Road, Opposite Bus Stand", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jinendra Mandir (Gwalior)", "location": "Gwalior, Near Lashkar Market, Close to Railway Station", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Vimalnath Jain Mandir (Ratlam)", "location": "Ratlam, Near Main Chowk, Opposite Old Bus Stand", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Adinath Jain Mandir (Bhopal)", "location": "Bhopal, Near Gandhi Medical Hospital, Old Bhopal Area", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Pushpdant Jain Mandir (Neemuch)", "location": "Neemuch, Near Town Hall, Main Market Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Mallinath Digambar Mandir (Sehore)", "location": "Sehore, Near Collectorate, Station Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Padmanath Jain Temple (Vidisha)", "location": "Vidisha, Opposite Vidisha Bus Stand, Near Bada Mandir", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Dharmanath Jain Mandir (Mandsaur)", "location": "Mandsaur, Near Sadar Bazar, Close to Old Fort Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Vasupujya Jain Mandir (Datia)", "location": "Datia, Near Datia Fort Road, Close to Sonagiri Highway", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Manasarovar Jain Mandir (Burhanpur)", "location": "Burhanpur, Near Tapti Riverfront, Opposite Old Cantonment Gate", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Kalyanji Jain Mandir (Guna)", "location": "Guna, Near Railway Crossing, Main Market Area", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Vardhaman Jain Atishay Kshetra (Agar Malwa)", "location": "Agar Malwa, Near Bus Stand, Close to Tehsil Office", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jirawala Parshvanath (Rajgarh)", "location": "Rajgarh, Near Old Bus Stand, Gram Market Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Parshvanath Tirth (Shajapur)", "location": "Shajapur, Near City Hospital, Opposite Bada Talab", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Triloknath Digambar Mandir (Sidhi)", "location": "Sidhi, Near District Court, Civil Lines", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Shitalnath Jain Mandir (Umaria)", "location": "Umaria, Near Railway Station Road, Market Area", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Munisuvratnath Mandir (Dindori)", "location": "Dindori, Near Collectorate, Sadar Bazar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jin Kushal Digambar Mandir (Sagar)", "location": "Sagar, Near Sadar Bazar, Close to Collector Office", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Rishabhdev Jain Mandir (Sheopur)", "location": "Sheopur, Near Old Fort Road, Close to Bus Stand", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Kunthunath Swetambar Mandir (Harda)", "location": "Harda, Opposite Bus Stand, Near Main Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Mahavir Atishay Kshetra (Shivpuri)", "location": "Shivpuri, Near Shivpuri Cantonment Road, Close to Talab", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Bhagwan Adishwar Jain Temple (Seoni)", "location": "Seoni, Near Gandhi Chowk, Main Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri 1008 Mahavir Digambar Mandir (Balaghat)", "location": "Balaghat, Near District Hospital, Opposite Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jinendra Mandir (Hoshangabad)", "location": "Hoshangabad, Near Narmada Ghat, Old Bazar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Atishay Kshetra Jain Mandir (Betul)", "location": "Betul, Near Railway Overbridge, Sadar Bazar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Kshetrapal Digambar Mandir (Guna)", "location": "Guna, Near Bus Stand, Close to Main Square", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Vimalnath Mandir (Khargone)", "location": "Khargone, Near Cotton Market, Station Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Nandishwar Jain Mandir (Mandla)", "location": "Mandla, Near City Bus Stand, Close to Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jin Kushal Mandir (Barwani)", "location": "Barwani, Near Collector Office, Old Town", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Rajendra Jain Mandir (Harda)", "location": "Harda, Near Town Hall, Main Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Viharman Jain Mandir (Jhabua)", "location": "Jhabua, Near Civil Lines, Opposite Old Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Shree Parshvanath Mandir (Morena)", "location": "Morena, Near Railway Crossing, Main Bazaar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Swayambhunath Jain Mandir (Dewas)", "location": "Dewas, Near Dewas Bus Stand, Vishnu Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Mahavir Derasar (Bhopal)", "location": "Bhopal, Near Bairagarh Flyover, Close to Old Bhopal Locality", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Radha Krishna Jain Mandir (Ujjain)", "location": "Ujjain, Near Vikram University Gate, Old Market Lane", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Ambika Devi Jain Mandir (Chhindwara)", "location": "Chhindwara, Near Tank Road, Old Bazaar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Shree Parshvanath (Satna)", "location": "Satna, Near Collectorate, Civil Lines Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Ratnatraya Jain Mandir (Satna)", "location": "Satna, Near Rani Durgavati Road, Market Area", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Panchbali Jain Mandir (Singrauli)", "location": "Singrauli, Near Singrauli Power Plant Approach, Town Area", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Shree Digambar Jain Mandir (Rehli)", "location": "Rehli, Near Rehli Bus Stand, Main Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jinprabhu Jain Mandir (Panna)", "location": "Panna, Near Panna Fort Road, Close to Main Bazar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Adinath Temple (Khajuraho)", "location": "Khajuraho, Near Western Group of Temples, Chhatarpur", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Parsvanath Mandir (Khajuraho)", "location": "Khajuraho, Near Jain Temples Cluster, Khajuraho Complex", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Chandraprabhu Jain Mandir (Rewa)", "location": "Rewa, Near Bada Talab, Old City", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Rajendra Jain Derasar (Sehore)", "location": "Sehore, Near Sehore Bus Stand, Close to Main Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Manibhadra Jain Mandir (Narsinghpur)", "location": "Narsinghpur, Near Collector Office, Sadar Bazar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Keshavnath Jain Temple (Satna)", "location": "Satna, Near Railway Station, Old Market Lane", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Shree Adishwar Mandir (Ratlam)", "location": "Ratlam, Near Tourist Complex, Old Town", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Shree Mahaveer Mandir (Neemuch)", "location": "Neemuch, Near Station Road, Close to Bus Stand", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Parshwanath Derasar (Khandwa)", "location": "Khandwa, Near Old Bazar, Close to Gandhi Chowk", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jinbharati Jain Mandir (Mhow)", "location": "Mhow, Near Cantonment Area, Close to Army Cantonment Gate", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Shree Rishabhdev Mandir (Alirajpur)", "location": "Alirajpur, Near Tehsil Office, Old Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Digambar Jain Mandir (Dewas)", "location": "Dewas, Near Dewas Fort Road, Sadar Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Mahaveer Swetambar (Mandla)", "location": "Mandla, Near District Hospital, Main Road", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Jin Kunj Jain Mandir (Ujjain)", "location": "Ujjain, Near Kaliadeh Ghat Road, Old Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Siddhnath Jain Mandir (Gwalior)", "location": "Gwalior, Near Scindia School Road, Lashkar Area", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Parsvanath Atishay Kshetra (Damoh)", "location": "Damoh, Near City Bus Stand, Opposite Old Court", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jin Mandir (Chhindwara)", "location": "Chhindwara, Near Shahid Park, Close to Main Square", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Ambika Mata Jain Temple (Ratlam)", "location": "Ratlam, Near Ambika Chowk, Old Bazaar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Siddha Kshetra Jain Mandir (Katni)", "location": "Katni, Near Katni Railway Station, City Centre", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Mahaveer Jain Tirth (Gwalior)", "location": "Gwalior, Near Gwalior Fort Approach, Close to Old City", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Digambar Jain Temple (Neemuch)", "location": "Neemuch, Near Old Military Road, Market Area", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Shree Parshwanath (Ratlam)", "location": "Ratlam, Near Harsiddhi Mandir Lane, Main Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jin Bhawan (Indore)", "location": "Indore, Near Khajrana Temple Road, Close to Bazaar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Jin Mandir (Bhopal - Arera Colony)", "location": "Bhopal, Arera Colony, Near Doctors' Colony Roundabout", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Shree Siddharth Jain Mandir (Sagar)", "location": "Sagar, Near Civil Lines, Opposite District Hospital", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Parshvanath Derasar (Jabalpur - Cantonment)", "location": "Jabalpur, Cantonment Area, Near Cantt Station", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Lord Mahavir Temple (Vidisha)", "location": "Vidisha, Near Vidisha Fort Road, Old Market", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Atishay Kshetra (Mandsaur)", "location": "Mandsaur, Near Sadar Bazaar, Close to Bus Stand", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+
+    { "title": "Shri Digambar Jain Mandir (Barwani)", "location": "Barwani, Main Chowk, Near Collector Office", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Mahavir Swami Mandir (Burhanpur)", "location": "Burhanpur, Near Tapti Ghat, Old City Lane", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Jinabhai Jain Derasar (Morena)", "location": "Morena, Near Medical College Road, Main Bazaar", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Atishay Kshetra (Chhatarpur)", "location": "Chhatarpur, Near Khajuraho Road, Close to Bus Stand", "state": "Madhya Pradesh", "tag": "Jain", "image": "" },
+    { "title": "Shri Shree Parshwanath (Singrauli)", "location": "Singrauli, Near District Administrative Complex, Town Area", "state": "Madhya Pradesh", "tag": "Jain", "image": "" }
   ]
 }
