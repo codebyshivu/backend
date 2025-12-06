@@ -1,6 +1,13 @@
 {
   "songs": [
     {
+      "title": "भक्तामर स्तोत्र (संस्कृत)",
+      "subtitle": "Bhaktamar Stotra (Sanskrit) | Jinendravani",
+      "url": "https://codebyshivu.github.io/backend/Song/bhaktamar/BhaktamarSanskrit.mp4",
+      "banner": "https://codebyshivu.github.io/backend/Song/bhaktamar/Banner/BhaktamarSanskrit.jpeg",
+      "category": "bhaktamar"
+    },
+    {
       "title": "भक्तामर स्तोत्र (हिन्दी)",
       "subtitle": "Bhaktamar Stotra (Hindi) | Jinendravani",
       "url": "https://codebyshivu.github.io/backend/Song/bhaktamar/Bhaktamber-Stotra-Hindi.m4a",
